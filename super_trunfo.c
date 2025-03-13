@@ -14,13 +14,13 @@ int main(){
     /*================ Bloco de Cadastro de itens da carta 1 ================*/
     printf("Carta 1: \n");
     printf("Insira o Estado: "); 
-    scanf(" %s", estado1); 
+    scanf(" %s", &estado1); 
 
     printf("Insira o código da carta com até 4 dígitos: "); 
-    scanf(" %s", codigo1); 
+    scanf(" %s", &codigo1); 
     
     printf("Insira o nome da cidade: "); 
-    scanf(" %s", cidade1); 
+    scanf(" %s", &cidade1); 
 
     printf("Insira o numero de habitantes da cidade: ");
     scanf(" %d", &populacao1);
@@ -45,13 +45,13 @@ int main(){
     /*================ Bloco de Cadastro de itens da carta 2 ================*/
     printf("Carta 2: \n");
     printf("Insira o Estado: "); 
-    scanf(" %s", estado2); 
+    scanf(" %s", &estado2); 
 
     printf("Insira o código da carta com até 4 dígitos: "); 
-    scanf(" %s", codigo2); 
+    scanf(" %s", &codigo2); 
 
     printf("Insira o nome da cidade: "); 
-    scanf(" %s", cidade2); 
+    scanf(" %s", &cidade2); 
 
     printf("Insira o numero de habitantes da cidade: ");
     scanf(" %d", &populacao2);
